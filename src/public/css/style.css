@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 20px;
+  color: #666;
+}
+
+.container form .item {
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.container form .item span {
+  color: red;
+  margin-left: 15px;
+}
+
+.container form .item .label {
+  margin-right: 40px;
+  width: 150px;
+}
+
+.container form .item .inputs[type=text] {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #999;
+}
+
+.container form .item select {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #999;
+}
+
+.container form .item textarea {
+  width: 400px;
+  height: 100px;
+  border: 1px solid #999;
+}
+
+.container form .btn-area {
+  text-align: center;
+}
+

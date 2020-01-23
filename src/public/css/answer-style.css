@@ -1,0 +1,10 @@
+.pagination {
+  display: -webkit-box;
+  display: flex;
+}
+
+.page-item {
+  margin-right: 20px;
+  list-style: none;
+}
+

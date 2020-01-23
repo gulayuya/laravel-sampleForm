@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 20px;
+        color: #666;
+    }
+    form {
+        .item {
+            display: flex;
+            margin-bottom: 20px;
+            align-items: center;
+
+            span {
+                color: red;
+                margin-left: 15px;
+            }
+
+            .label {
+                margin-right: 40px;
+                width: 150px;
+                // background-color: #999;
+            }
+
+            .inputs[type="text"] {
+                width: 400px;
+                height: 50px;
+                border: 1px solid #999;
+            }
+
+            select {
+                width: 400px;
+                height: 50px;
+                border: 1px solid #999;
+            }
+
+            textarea {
+                width: 400px;
+                height: 100px;
+                border: 1px solid #999;
+            }
+        }
+
+        .btn-area {
+            text-align: center;
+        }
+    }
+}
