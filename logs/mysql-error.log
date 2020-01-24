@@ -46,3 +46,14 @@ mbind: Operation not permitted
 2020-01-21T14:08:06.354264+09:00 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-000027 - Can't sync file '/var/log/mysql/mysql-slow.log' to disk (OS errno 9 - Bad file descriptor)
 2020-01-21T14:08:06.356567+09:00 0 [ERROR] [MY-010907] [Server] Error writing file '/var/log/mysql/mysql-slow.log' (errno: 9 - Bad file descriptor)
 2020-01-21T14:08:06.359535+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2020-01-24T09:58:10.773243+09:00 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2020-01-24T09:58:10.773361+09:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.18) initializing of server in progress as process 45
+2020-01-24T09:58:14.083691+09:00 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2020-01-24T09:58:18.490094+09:00 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2020-01-24T09:58:18.490223+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.18) starting as process 94
+2020-01-24T09:58:20.152814+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-01-24T09:58:20.180005+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-01-24T09:58:20.304759+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.18'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2020-01-24T09:58:20.564724+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock'
+2020-01-24T09:58:25.482146+09:00 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2020-01-24T09:58:27.210500+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
